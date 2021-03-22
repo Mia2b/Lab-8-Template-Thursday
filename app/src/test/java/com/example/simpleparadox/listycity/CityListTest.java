@@ -102,6 +102,6 @@ class CityListTest {
         CityList cityList = mockCityList();
         City city = new City("Calgary", "Alberta");
         cityList.add(city);
-        assertEquals("Edmonton, Calgary",cityList.cityNames());
+        assertEquals("Test case failing, Calgary",cityList.cityNames());
     }
 }
