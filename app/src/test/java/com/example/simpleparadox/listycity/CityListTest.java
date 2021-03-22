@@ -93,4 +93,15 @@ class CityListTest {
 
         assertEquals(1, cityList.countCities());
     }
+
+    /**
+     * String Cities implemented, should pass
+     */
+    @Test
+    void testCityNames() {
+        CityList cityList = mockCityList();
+        City city = new City("Calgary", "Alberta");
+        cityList.add(city);
+        assertEquals("Edmonton, Calgary",cityList.cityNames());
+    }
 }
