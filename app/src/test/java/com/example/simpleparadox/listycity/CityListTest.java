@@ -95,13 +95,13 @@ class CityListTest {
     }
 
     /**
-     * String Cities not implemented yet, will fail
+     * String Cities implemented, should pass
      */
     @Test
     void testCityNames() {
         CityList cityList = mockCityList();
         City city = new City("Calgary", "Alberta");
         cityList.add(city);
-        assertEquals("Test case failing, Calgary",cityList.cityNames());
+        assertEquals("Edmonton, Calgary",cityList.cityNames());
     }
 }
