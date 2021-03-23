@@ -2,7 +2,7 @@ package com.example.simpleparadox.listycity;
 
 import org.junit.jupiter.api.Test;
 
-
+// Some changes to see if commit signing works
 import static org.junit.jupiter.api.Assertions.*;
 
 class CityListTest {
